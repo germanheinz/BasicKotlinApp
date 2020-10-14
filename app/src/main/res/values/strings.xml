@@ -6,4 +6,9 @@
     <string name="textExample">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias animi
         blanditiis distinctio doloribus, eius exercitationem expedita illum impedit iure labore non porro quae quidem
         quos sequi veniam veritatis, voluptates?</string>
+
+    <string name="nameSpeaker">Voluptates Dasdas</string>
+    <string name="topic">Design</string>
+
+    <string name="textDetailSchedule">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</string>
 </resources>
