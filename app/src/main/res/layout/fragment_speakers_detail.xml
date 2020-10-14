@@ -5,10 +5,78 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragments.SpeakersDetailFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content">
+        <Toolbar
+            android:id="@+id/toolbarConference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/logo_platzi_conf"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:scaleType="centerCrop"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary"
+                        android:alpha="0.5"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nameSpeaker"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerInParent="true"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/topic"
+                            android:textSize="15sp"
+                            android:textStyle="normal"
+                            android:gravity="center_horizontal"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="5dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Workspace"
+                            android:textSize="@dimen/p"
+                            android:textStyle="bold"
+                            android:gravity="center_horizontal"
+                            android:layout_centerInParent="true"
+                            android:layout_margin="5dp"/>
+
+               <ImageView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+
+                   />
+
+                    </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
 
 </FrameLayout>
