@@ -18,6 +18,7 @@
         android:orientation="vertical"
         android:layout_marginTop="8dp">
         <TextView
+            android:id="@+id/conferenceHour"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="13:00"
@@ -25,6 +26,7 @@
             android:gravity="center"
             android:textSize="14sp"/>
         <TextView
+            android:id="@+id/conferenceAMPM"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=" AM"
@@ -39,17 +41,20 @@
         android:layout_weight="3 "
         android:orientation="vertical">
         <TextView
+            android:id="@+id/conferenceName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="@string/hello_blank_fragment"/>
         <TextView
+            android:id="@+id/speakerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="normal"
             android:textSize="10sp"
             android:text="@string/nameSpeaker"/>
         <TextView
+            android:id="@+id/scheduleTag"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:width="50dp"

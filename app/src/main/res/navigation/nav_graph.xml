@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/navHomeFragment"
-        android:name="com.example.myfirstapp.ui.fragments.HomeFragment"
+        android:name="com.example.myfirstapp.view.ui.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/navScheduleFragment"
-        android:name="com.example.myfirstapp.ui.fragments.ScheduleFragment"
+        android:name="com.example.myfirstapp.view.ui.fragments.ScheduleFragment"
         android:label="fragment_schedule"
         tools:layout="@layout/fragment_schedule" >
         <action
@@ -26,7 +26,7 @@
     </fragment>
     <fragment
         android:id="@+id/navSpeakerFragment"
-        android:name="com.example.myfirstapp.ui.fragments.SpeakersFragment"
+        android:name="com.example.myfirstapp.view.ui.fragments.SpeakersFragment"
         android:label="SpeakersFragment" >
         <action
             android:id="@+id/action_speakersFragment_to_ubicationFragment"
@@ -37,12 +37,12 @@
     </fragment>
     <fragment
         android:id="@+id/navMapFragment"
-        android:name="com.example.myfirstapp.ui.fragments.UbicationFragment"
+        android:name="com.example.myfirstapp.view.ui.fragments.UbicationFragment"
         android:label="fragment_ubication"
         tools:layout="@layout/fragment_ubication" />
 
     <dialog android:id="@+id/speakerDetailFragmentDialog"
-        android:name="com.example.myfirstapp.ui.fragments.SpeakersDetailFragment"
+        android:name="com.example.myfirstapp.view.ui.fragments.SpeakersDetailFragment"
         android:label="speakerDetailFragmentDialog"
         tools:layout="@layout/fragment_speakers_detail"/>
 </navigation>

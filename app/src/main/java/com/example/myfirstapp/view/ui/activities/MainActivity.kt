@@ -1,13 +1,8 @@
-package com.example.myfirstapp
+package com.example.myfirstapp.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.myfirstapp.model.Conference
-import com.example.myfirstapp.model.Speaker
-import com.google.firebase.firestore.FirebaseFirestore
-import org.json.JSONArray
-import org.json.JSONObject
-import java.util.*
+import com.example.myfirstapp.R
 
 class MainActivity : AppCompatActivity() {
 
