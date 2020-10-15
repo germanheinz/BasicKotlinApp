@@ -3,10 +3,10 @@
 
     <item android:id="@+id/navHomeFragment" android:title="Home" android:icon="@drawable/home_pin"/>
 
-    <item android:id="@+id/navScheduleIcon" android:title="schedule" android:icon="@drawable/schedule_pin"/>
+    <item android:id="@+id/navScheduleFragment" android:title="schedule" android:icon="@drawable/schedule_pin"/>
 
-    <item android:id="@+id/navSpeakerIcon" android:title="speaker" android:icon="@drawable/speaker_pin"/>
+    <item android:id="@+id/navSpeakerFragment" android:title="speaker" android:icon="@drawable/speaker_pin"/>
 
-    <item android:id="@+id/navMapIcon" android:title="map" android:icon="@drawable/map_pin"/>
+    <item android:id="@+id/navMapFragment" android:title="map" android:icon="@drawable/map_pin"/>
 
 </menu>
