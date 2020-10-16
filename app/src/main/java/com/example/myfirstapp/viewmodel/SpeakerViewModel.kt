@@ -1,12 +1,13 @@
 package com.example.myfirstapp.viewmodel
 
 import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import com.example.myfirstapp.model.Conference
 import com.example.myfirstapp.model.Speaker
 import com.example.myfirstapp.network.Callback
 import com.example.myfirstapp.network.FirestoreService
 
-class SpeakerViewModel {
+class SpeakerViewModel : ViewModel() {
 
     val firestoreService = FirestoreService()
     var listSpeaker: MutableLiveData<List<Speaker>> = MutableLiveData()

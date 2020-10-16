@@ -7,11 +7,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myfirstapp.R
 import com.example.myfirstapp.model.Conference
+import com.example.myfirstapp.view.ui.fragments.ScheduleFragment
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 
-class ScheduleAdapter(val shceduleListener: ScheduleListener): RecyclerView.Adapter<ScheduleAdapter.ViewHolder>(){
+class ScheduleAdapter(val shceduleListener: ScheduleFragment): RecyclerView.Adapter<ScheduleAdapter.ViewHolder>(){
 
     val listConference = ArrayList<Conference>()
 
