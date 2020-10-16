@@ -41,6 +41,10 @@ class ScheduleAdapter(val shceduleListener: ScheduleListener): RecyclerView.Adap
         holder.conferenceHour.text = hourFormat
         holder.conferenceAMPM.text = simpleDateFormatAMPM.format(conference.datetime).toUpperCase()
 
+        holder.itemView.setOnClickListener{
+            shceduleListener.onConferenceClicked(conference, position)
+        }
+
     }
     // This method allow to adding data at adapter
     fun updateData(data: List<Conference>){
